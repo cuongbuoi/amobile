@@ -1,0 +1,44 @@
+@media screen and (max-width: 1024px){
+	#page-content{
+		margin-top: 150px;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	#page-content{
+		margin-top: 30px;
+	}
+	.fa-angle-down{
+	        display: none;
+	    }
+	.slogan{
+		width: 100%;
+		.img{
+			width: 100% !important;
+			float: none;
+			position: absolute;
+			#hinh1{
+				display: none;
+			}
+			#hinh2{
+				display: block !important;
+				z-index: 999;
+			}
+		}
+		.lienhe{
+			display: none !important; 
+			.email{
+				display: flex;
+
+				p{margin:0}
+
+			}
+		}
+	}
+	.lienhetuvan{
+		display: none !important;
+	}
+	.panel-danhmuc,.quangcao{
+		display: none;
+	}
+}

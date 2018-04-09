@@ -1,0 +1,56 @@
+.danhmuc{
+	.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+		background-color: $orange;
+		border-color: $orange;
+		color: #fff;
+	}
+	.pagination{
+		li{
+			a{
+				color: #000;
+			}
+		}
+	}
+	.select{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.checkbox{
+		margin-left: 15px;
+	}
+	.col-md-3{
+		 margin: 0;
+	        	padding: 0;
+	}
+	.panelhang{
+		margin-bottom: 30px;
+		.chonhang{
+			float: left;
+			padding-bottom: 0;
+			margin-top: 8px;
+			ul{
+				padding: 0;
+				margin-bottom: 0;
+				li{
+					list-style-type: none;
+					display: inline-block;
+					margin-right: 15px;
+					&:first-child{
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.sapxep{
+			float: right;
+			display: flex;
+			.select{
+				width: 140px;
+				select{
+					border-radius: 0;
+					background-color: #fff;
+				}
+			}
+		}
+	}
+}

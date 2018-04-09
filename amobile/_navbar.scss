@@ -1,0 +1,75 @@
+header{
+	line-height: 40px !important;
+	#header-wrap{
+		background-color: $orange !important;
+	}
+	.slogan{
+		width: 100%;
+		background-color: #fff;
+		.img{
+			width: 300px;
+			float: left;
+			#hinh2{
+				display: none;
+				width: 15%;
+			}
+		}
+		.lienhe{
+			float: right;
+			display: flex;
+			.email{
+				display: flex;
+				p{margin:0}
+				.icon{
+					width: 50px;
+					height: 70px;
+					padding-top: 23px;
+					span{
+						border: 2px solid $orange;
+						color: $orange;
+						padding: 10px 13px;
+						border-radius: 50%;
+						text-align: center;
+					}
+				}
+				.noidung{
+					padding-top: 15px;
+				}
+			}
+		}
+	}
+
+	nav{
+
+		ul{
+			li{
+				a{
+					color: #fff !important;
+				}
+				ul{
+					li{
+						ul{
+							a{
+								color: #444 !important;
+								&:hover{
+									color: $orange !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	 .giohang{
+	        .badge{
+	            background-color: $orange;
+	            top: 0;
+	            margin-top: -20px;
+	            margin-left: -15px;
+	            margin-right: 0;
+	            padding: 3px 4px;
+	        }
+
+	    }  
+}
